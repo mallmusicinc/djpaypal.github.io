@@ -297,11 +297,11 @@ body {
   display: block;
   width: auto;
   height: 105vh;
-  background-image: url('../images/vinyl_cover_template_by_graffr_d2gyfno.png');
+  background-image: url('../images/why-packshot.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   text-align: center;
 }
 
@@ -313,6 +313,40 @@ body {
   text-align: center;
   -o-object-fit: contain;
   object-fit: contain;
+}
+
+.container-3 {
+  position: fixed;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  height: auto;
+}
+
+.image-4 {
+  width: 43vw;
+  max-width: 100%;
+  opacity: 1;
+}
+
+.text-block {
+  position: fixed;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  margin-bottom: 25px;
+  padding-bottom: 11px;
+  border: 1px none #000;
+  color: #fff;
+  text-align: center;
+}
+
+.html-embed {
+  border-style: none;
+  border-width: 0px;
+  border-color: transparent;
 }
 
 @media screen and (max-width: 991px) {
