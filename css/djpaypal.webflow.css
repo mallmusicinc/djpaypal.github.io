@@ -378,14 +378,11 @@ img {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 34px;
+  padding-top: 47px;
   padding-left: 0px;
   border: 1px none #000;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  -webkit-transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
-  transform: translate(0px, 0px);
 }
 
 .cardback {
@@ -393,7 +390,6 @@ img {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 34px;
   border: 1px none #000;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -469,8 +465,8 @@ img {
     width: 26vw;
   }
 
-  .cardback {
-    padding-top: 34px;
+  .card-front {
+    padding-top: 17px;
   }
 
   .cardwrapper {
@@ -569,6 +565,10 @@ img {
     position: relative;
   }
 
+  .card-front {
+    padding-top: 52px;
+  }
+
   .cardback {
     padding-top: 34px;
   }
@@ -623,6 +623,10 @@ img {
     max-width: 100%;
     -o-object-fit: scale-down;
     object-fit: scale-down;
+  }
+
+  .card-front {
+    padding-top: 42px;
   }
 
   .cardback {
