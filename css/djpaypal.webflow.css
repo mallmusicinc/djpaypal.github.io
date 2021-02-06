@@ -378,7 +378,7 @@ img {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 47px;
+  padding-top: 42px;
   padding-left: 0px;
   border: 1px none #000;
   -webkit-backface-visibility: hidden;
@@ -626,7 +626,7 @@ img {
   }
 
   .card-front {
-    padding-top: 42px;
+    padding-top: 47px;
   }
 
   .cardback {
